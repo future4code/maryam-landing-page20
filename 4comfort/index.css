@@ -1,0 +1,39 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+
+body
+{   
+    width: 100vw;
+    height: 500vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+header
+{
+    background-color: aquamarine;
+}
+
+
+sub-header
+{
+    background-color: brown;
+}
+
+nav
+{
+    background-color: chartreuse;
+}
+main
+{
+    background-color:gray;
+}
+
+footer
+{
+        background-color: darkcyan;
+}
