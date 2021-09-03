@@ -169,8 +169,61 @@ nav h1{
 main
 {
     background-color:#E1E6E8;
-    height: 100vh;
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 10vw 40vw 40vw 10vw;
+    grid-template-rows: 1fr 3fr 3fr;
 }
+main img{
+    width: 100%;
+}
+
+.topsobre
+{
+    grid-column: 2/4;   
+    display: grid;
+    grid-template-rows: 1fr 1fr; 
+}
+
+.topsobre h2
+{
+    margin-top: 15px;
+    font-size: 70px;   
+    grid-row: 1/2;
+}
+.topsobre p
+{
+    font-size: 20px;
+    grid-row: 2/3;
+}
+.meiosobre
+{
+    grid-column: 2/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+#mambanegra
+{
+    width: 70%;
+}
+.item p{
+    text-align: center;
+}
+
+.esquerdasobre
+{  
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.direitasobre
+{
+    grid-column:3/4 ;
+}
+
+
+
+
 
 footer
 {       
