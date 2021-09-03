@@ -10,7 +10,7 @@ a{
 body
 {   
     width: 100vw;
-    display: grid;
+    
     margin: 0;
     padding: 0;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -166,12 +166,13 @@ nav h1{
 
 main
 {
-    background-color:gray;
+    background-color:#E1E6E8;
+    height: 100vh;
 }
 
 footer
 {       
-    
+    width: 100vw;
     background-color: #1c1c2c;
     color: aliceblue;
     display: grid;
