@@ -49,11 +49,6 @@ header a:hover{
 header a:active{
     color: #2aa594;
 }
-<<<<<<< HEAD
-
-/* SUB HEADER */
-=======
->>>>>>> fc0cf28d0f9833351cdc015de917127652a82b83
 
 sub-header
 {   
@@ -195,11 +190,7 @@ footer
 
 .direitacontato h3
 {
-<<<<<<< HEAD
-    background-color: darkcyan;
-=======
     grid-column:1/-1 ;
->>>>>>> 430e52a7a018d4ffcb2598771790bf9776200365
 }
 #nome
 {
