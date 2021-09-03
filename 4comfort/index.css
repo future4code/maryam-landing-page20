@@ -164,11 +164,8 @@ footer
 
 .direitacontato h3
 {
-<<<<<<< HEAD
-    background-color: darkcyan;
-=======
+    
     grid-column:1/-1 ;
->>>>>>> 430e52a7a018d4ffcb2598771790bf9776200365
 }
 #nome
 {
