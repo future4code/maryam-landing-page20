@@ -2,14 +2,16 @@
 {
     padding:0;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body
 {   
     width: 100vw;
-    height: 500vw;
+    height: 500vh;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    scroll-behavior: smooth;
 }
 
 
@@ -34,6 +36,69 @@ main
 }
 
 footer
+{       
+    
+    background-color: #12111f;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 10vw 40vw 40vw 10vw;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.topocontato
 {
-        background-color: darkcyan;
+    
+    grid-column: 2/4;
+}
+
+.esquerdacontato
+{
+
+    grid-column: 2/3;
+}
+
+.direitacontato
+{
+    
+    grid-column: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+
+}
+
+.direitacontato h3
+{
+    grid-column:1/-1 ;
+}
+#nome
+{
+    grid-column: 1/3;
+}
+#email
+{
+    grid-column: 1/3;
+}
+
+#tel
+{
+    grid-column: 1/3;
+}
+#mensagem
+{   
+    grid-column: 3/5 ;
+    grid-row: 2/5;
+    padding: var(--textPadding,3px);
+}
+#enviar
+{
+    grid-column: 4/5;
+}
+
+
+.botcontato
+{
+
+    grid-column: 2/4;
 }
