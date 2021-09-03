@@ -45,13 +45,13 @@ header a{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif
+    /* font-family: Arial, Helvetica, sans-serif */
 }
 header a:hover{
-    color: #1deed2;
+    color: #fdf91d;
 }
 header a:active{
-    color: #2aa594;
+    color: #ffc815;
 }
 
 /* SUB HEADER */
