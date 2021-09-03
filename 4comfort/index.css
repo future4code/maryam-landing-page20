@@ -116,7 +116,7 @@ p
     justify-content: center;
 }
 
-a:hover 
+.button-acesso a:hover 
 {
     color: black;
     background-color: rgb(240, 189, 21);
