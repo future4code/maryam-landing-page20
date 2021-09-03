@@ -8,9 +8,7 @@
 body
 {   
     width: 100vw;
-    height: 500vh;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     scroll-behavior: smooth;
 }
 
@@ -21,6 +19,7 @@ header
     display: flex;
     background-color:#9fbffc;
     height: 100px;
+    z-index: 9;
 }
  header img{    /*logo */
     height: 200px;
@@ -50,9 +49,11 @@ header a:active{
     color: #2aa594;
 }
 
+/* SUB HEADER */
+
 sub-header
 {   
-    background: url(./imagens-steph/tenis-subheader.jpg) no-repeat fixed center;
+    background: url(./imagens/fundo\ do\ sub-header.jpg) no-repeat fixed center;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -61,6 +62,7 @@ sub-header
 .container 
 {
     padding-left: 100px;
+    height: 90vh;
 }
 
 .icone-mais 
@@ -68,13 +70,18 @@ sub-header
 
     width: 175px;
     height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text 
 {   
+    margin-top: 100px;
     text-transform: uppercase;
-    width: 45%;
-    font-size: 40px;
+    width: 37%;
+    font-size: 35px;
+    margin-left: 130px;
 }
 
 p 
@@ -88,10 +95,12 @@ p
     margin-top: 1rem;
     display: flex;
     gap: 30px;
+    margin-left: 130px;
 }
 
 .button-acesso a {
-
+    background-color: antiquewhite;
+    opacity: 0.7;
     text-decoration: none;
     color: black;
     padding: 1rem 4rem;
