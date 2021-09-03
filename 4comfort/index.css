@@ -10,7 +10,6 @@ a{
 body
 {   
     width: 100vw;
-    height: 500vh;
     display: grid;
     margin: 0;
     padding: 0;
@@ -18,12 +17,14 @@ body
     scroll-behavior: smooth;
 }
 
+/* HEADER */
 
 header
 { 
     display: flex;
     background-color:#9fbffc;
     height: 100px;
+    z-index: 9;
 }
  header img{    /*logo */
     height: 200px;
@@ -53,10 +54,75 @@ header a:active{
     color: #2aa594;
 }
 
+/* SUB HEADER */
+
 sub-header
-{
-    background-color: brown;
+{   
+    background: url(./imagens/fundo\ do\ sub-header.jpg) no-repeat fixed center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+.container 
+{
+    padding-left: 100px;
+    height: 90vh;
+}
+
+.icone-mais 
+{
+
+    width: 175px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text 
+{   
+    margin-top: 100px;
+    text-transform: uppercase;
+    width: 37%;
+    font-size: 35px;
+    margin-left: 130px;
+}
+
+p 
+{
+    margin-top: 25px;
+}
+
+.button-acesso 
+{
+    font-size: 20px;
+    margin-top: 1rem;
+    display: flex;
+    gap: 30px;
+    margin-left: 130px;
+}
+
+.button-acesso a {
+    background-color: antiquewhite;
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover 
+{
+    color: black;
+    background-color: rgb(240, 189, 21);
+}
+
+/* NAv */
 
 nav
 {
@@ -164,11 +230,7 @@ footer
 
 .direitacontato h3
 {
-<<<<<<< HEAD
-    background-color: darkcyan;
-=======
     grid-column:1/-1 ;
->>>>>>> 430e52a7a018d4ffcb2598771790bf9776200365
 }
 #nome
 {
