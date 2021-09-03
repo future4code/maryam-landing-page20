@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>4comfort</title>
+    <html { scroll-behavior: smooth; }></html>
 </head>
 <body>
 
@@ -21,11 +23,52 @@
 
 
     </nav>
-    <main>
+    <main id="sobre">
     
     </main>
-    <footer>
-        
+    <footer id = "contato">
+        <div class="topocontato">
+        <h2>Fale com a gente</h2>
+        <p>por telefone ou online</p>
+        </div>
+
+        <div class="esquerdacontato">
+            <div class = "email">
+                <a href="mailto:comfort@email.com" target="_blank">
+                <img src="" alt="Email">
+                <p>comfort@email.com</p>
+                </a>
+            </div>
+            <div class="telefone">
+                <a href="tel:+552499999999" target="_blank">
+                <img src="" alt="Telefone">
+                <p>(24)9999-9999</p>
+                </a>
+            </div>
+            <div>
+                <p>Rua dos bobos, número 0</p>
+            </div>
+        </div>
+
+        <div class="direitacontato">
+            <h3>Envie uma mensagem:</h3>
+            <input type="text" name="Nome" placeholder= "Nome" id="nome">
+            <input type="email" name ="email" placeholder="Email" id="email"> 
+            <input type="tel" name ="tel" placeholder="Telefone" id ="tel"> 
+            <textarea id="mensagem" placeholder="Digite sua mensagem aqui"></textarea >
+            <button id="enviar" name="enviar" placeholder="enviar" title="Enviar">
+                <span>Enviar</span>
+            </button>
+
+        </div>
+        <div class="botcontato">
+            <h3>Redes sociais</h3>
+            <a href="http:Instagram.com" target="_blank"> <img src="" alt="Instagram"> </a>
+            <a href="http:Facebook.com" target="_blank"> <img src="" alt="Facebook"> </a>
+
+
+        </div>
+
     </footer>
 </body>
 </html>
