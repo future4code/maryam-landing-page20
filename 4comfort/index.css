@@ -25,11 +25,13 @@ header
     background-color:#9fbffc;
     height: 100px;
     z-index: 9;
+    justify-content: space-between;
 }
  header img{    /*logo */
     height: 200px;
     width: 200px;
     padding-right: 200px;
+    
 }
 header a{               
     display: inline;
