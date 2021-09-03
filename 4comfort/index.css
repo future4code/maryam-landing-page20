@@ -14,17 +14,74 @@ body
     scroll-behavior: smooth;
 }
 
+/* HEADER */
 
 header
 {
     background-color: aquamarine;
 }
 
+/* SUB HEADER */
 
 sub-header
-{
-    background-color: brown;
+{   
+    background: url(./imagens-steph/tenis-subheader.jpg) no-repeat fixed center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+.container 
+{
+    padding-left: 100px;
+}
+
+.icone-mais 
+{
+
+    width: 175px;
+    height: 90px;
+}
+
+.text 
+{   
+    text-transform: uppercase;
+    width: 45%;
+    font-size: 40px;
+}
+
+p 
+{
+    margin-top: 25px;
+}
+
+.button-acesso 
+{
+    font-size: 20px;
+    margin-top: 1rem;
+    display: flex;
+    gap: 30px;
+}
+
+.button-acesso a {
+
+    text-decoration: none;
+    color: black;
+    padding: 1rem 4rem;
+    border: 1px solid black;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover 
+{
+    color: black;
+    background-color: rgb(240, 189, 21);
+}
+
+/* NAv */
 
 nav
 {
